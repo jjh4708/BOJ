@@ -13,7 +13,7 @@ for _ in range(H):
     l = list(input().strip())
     graph.append(l)
 
-def bfs():
+def bfs(): 
     q = deque()
     q.append([0,0,0])
     visited[0][0][0] = 0
